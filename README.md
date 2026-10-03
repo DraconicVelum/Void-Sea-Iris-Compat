@@ -28,14 +28,14 @@
 
 **Client-side only.** The server does not need this mod.
 
-Tested with:
-**Complementary Reimagined**
-**Complementary Unbound**
-**BSL Shaders**
-**Bliss Shaders**
-**MakeUp - Ultra Fast**
-**Sildur's Vibrant Shaders**
-**Solas Shader**
+Tested with:<br>
+**Complementary Reimagined**<br>
+**Complementary Unbound**<br>
+**BSL Shaders**<br>
+**Bliss Shaders**<br>
+**MakeUp - Ultra Fast**<br>
+**Sildur's Vibrant Shaders**<br>
+**Solas Shader**<br>
 
 Other shader packs are not yet verified.
 
