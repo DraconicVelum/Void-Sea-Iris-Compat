@@ -1,4 +1,4 @@
-<h1 align="center"><span style="color:#8000ff;">$\LARGE\color{green}{\textsf{Void Sea Iris Compat}}$</span></h1>
+<h1 align="center"><span style="color:#8000ff;">$\LARGE\color{hsl(275, 100%, 50%)}{\textsf{Void Sea Iris Compat}}$</span></h1>
 
 <p align="center"><a href="https://ko-fi.com/draconicvelum"> <img src="https://shields.io/badge/kofi-Buy_a_coffee-ff5f5f?logo=ko-fi&amp;type=patrons&amp;style=for-the-badge&amp;color=green&amp;logoColor=green" width="189" height="28" alt="Support on Ko-fi"></a></p>
 
@@ -15,14 +15,14 @@
 
 ---
 
-## <span style="color:#8000ff;">$\large\color{green}{\textsf{Requirements}}$</span>
+## <span style="color:#8000ff;">$\large\color{hsl(275, 100%, 50%)}{\textsf{Requirements}}$</span>
 - Minecraft **1.21.1** with **NeoForge 21.1.x**.
 - Create Aeronautics / Simulated and its dependencies for **1.21.1**.
 - **Iris** and **Sodium** for **1.21.1**.
 
 ---
 
-## <span style="color:#8000ff;">$\large\color{green}{\textsf{Installation}}$</span>
+## <span style="color:#8000ff;">$\large\color{hsl(275, 100%, 50%)}{\textsf{Installation}}$</span>
 1. Place the VSIC mod JAR in your client's <code>mods</code> folder.
 2. Launch Minecraft and enable your shader pack.
 
@@ -43,5 +43,5 @@ No mod-version restrictions are imposed. Compatibility with every version is not
 
 ---
 
-## <span style="color:#8000ff;">$\large\color{green}{\textsf{License}}$</span>
+## <span style="color:#8000ff;">$\large\color{hsl(275, 100%, 50%)}{\textsf{License}}$</span>
 Licensed under [GPLv3.0](LICENSE).
