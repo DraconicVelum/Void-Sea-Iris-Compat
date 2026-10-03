@@ -1,0 +1,16 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.draconic.voidsea.mixin",
+  "plugin": "dev.draconic.voidsea.mixin.CompatMixinPlugin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "EndSeaRendererMixin",
+    "EndSeaShadowRendererMixin",
+    "IrisRenderingPipelineMixin",
+    "VeilShaderWrapperMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

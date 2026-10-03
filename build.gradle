@@ -1,0 +1,47 @@
+plugins {
+    id 'java-library'
+    id 'net.neoforged.moddev' version '2.0.148'
+}
+
+group = 'dev.draconic.voidsea'
+version = mod_version
+
+java {
+    toolchain.languageVersion = JavaLanguageVersion.of(21)
+    withSourcesJar()
+}
+
+neoForge {
+    version = neoforge_version
+    runs {
+        client {
+            client()
+            gameDirectory = file('runs/client')
+        }
+    }
+    mods {
+        void_sea_iris_compat { sourceSet sourceSets.main }
+    }
+}
+
+dependencies {
+    compileOnly files('libs/simulated-1.3.2.jar', 'libs/veil-4.3.2.jar', 'libs/iris-1.8.14-beta.1.jar')
+    if (providers.gradleProperty('testInstance').isPresent()) {
+        runtimeOnly fileTree(dir: "${providers.gradleProperty('testInstance').get()}/mods", include: '*.jar')
+    }
+}
+
+tasks.named('processResources', ProcessResources) {
+    inputs.property('modVersion', project.version)
+    filesMatching('META-INF/neoforge.mods.toml') { expand(modVersion: project.version) }
+}
+
+tasks.withType(JavaCompile).configureEach {
+    options.encoding = 'UTF-8'
+    options.release = 21
+}
+
+tasks.named('jar', Jar) {
+    from('LICENSE')
+    manifest.attributes('Implementation-Version': project.version)
+}
