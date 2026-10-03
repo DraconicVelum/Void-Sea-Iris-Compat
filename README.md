@@ -5,7 +5,7 @@
 <p align="center">
 <img alt="Minecraft 1.21.1" src="https://img.shields.io/badge/Minecraft-1.21.1-green?style=popout">
 <img alt="NeoForge" src="https://img.shields.io/badge/Loader-NeoForge-orange?style=popout">
-<img alt="Prototype version 0.1.0" src="https://img.shields.io/badge/Prototype-0.1.0-blue?style=popout">
+<img alt="Release version 0.1.0" src="https://img.shields.io/badge/Release-0.1.0-blue?style=popout">
 <a href="LICENSE"><img alt="GPLv3 license" src="https://img.shields.io/badge/License-GPLv3-green?style=popout"></a>
 </p>
 
