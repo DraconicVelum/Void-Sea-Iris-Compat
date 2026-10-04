@@ -6,7 +6,7 @@
 <img alt="Minecraft 1.21.1" src="https://img.shields.io/badge/Minecraft-1.21.1-green?style=popout">
 <img alt="NeoForge" src="https://img.shields.io/badge/Loader-NeoForge-orange?style=popout">
 <img alt="Release version 0.1.0" src="https://img.shields.io/badge/Release-0.1.0-purple?style=popout">
-<a href="https://github.com/DraconicVelum/JustEnoughServerlessRecipes/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/DraconicVelum/JustEnoughServerlessRecipes/total.svg?style=popout"></a>
+<a href="https://github.com/DraconicVelum/Void-Sea-Iris-Compat/releases"><img alt="Total downloads" src="https://img.shields.io/github/downloads/DraconicVelum/Void-Sea-Iris-Compat/total.svg?style=popout"></a>
 <a href="LICENSE"><img alt="GPLv3 license" src="https://img.shields.io/badge/License-GPLv3-green?style=popout"></a>
 </p>
 
